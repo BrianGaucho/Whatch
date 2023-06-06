@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(62, 77, 77);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+#time{
+    display: flex;
+    gap: 70px;
+    color: aliceblue;
+}
+
+#time .square{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+#time div{
+    position: absolute;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    /* Styles for screens up to 600px */
+    .square {
+      margin: 5px;
+    }
+  
+    #hours,
+    #minutes,
+    #seconds {
+      font-size: 24px;
+    }
+  
+    #ampm {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    /* Styles for screens between 601px and 900px */
+    .square {
+      margin: 8px;
+    }
+  
+    #hours,
+    #minutes,
+    #seconds {
+      font-size: 28px;
+    }
+  
+    #ampm {
+      font-size: 16px;
+    }
+  }
