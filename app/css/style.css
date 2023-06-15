@@ -130,6 +130,8 @@ svg {
     /* Styles for screens between 601px and 900px */
     .square {
       margin: 8px;
+      height: 70px;
+      width: 70px;
     }
   
     #hours,
