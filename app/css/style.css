@@ -36,7 +36,6 @@ body{
     font-size: 1.4rem;
 }
 
-/* Default styles for all screen sizes */
 #time {
   display: flex;
   justify-content: center;
@@ -63,9 +62,8 @@ svg {
   text-align: center;
 }
 
-/* Media queries for responsive design */
+/* Media queries  */
 
-/* Small screens (up to 600px) */
 @media (max-width: 600px) {
   .square {
     margin: 5px;
@@ -83,7 +81,6 @@ svg {
 
 
 @media only screen and (max-width: 600px) {
-    /* Styles for screens up to 600px */
     .square {
       margin: 5px;
     }
@@ -100,7 +97,6 @@ svg {
   }
   
   @media only screen and (min-width: 300px) and (max-width: 900px) {
-    /* Styles for screens between 601px and 900px */
     .square {
       margin: 8px;
       height: 70px;
