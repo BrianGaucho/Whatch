@@ -18,6 +18,7 @@ body{
     display: flex;
     gap: 70px;
     color: aliceblue;
+    border-radius: 5px;
 }
 
 #time .square{
